@@ -1,3 +1,4 @@
 dist/
+venv/
 packaging_tutorial/
 **/*.egg-info
