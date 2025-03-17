@@ -22,6 +22,7 @@ jobs:
       
       - name: Install requirements
         run: |
+          pip install --upgrade build
           pip install -r requirements.txt
 
       - name: Build executable
